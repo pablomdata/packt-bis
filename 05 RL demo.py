@@ -50,7 +50,6 @@ for ep in tqdm(range(n_episodes)):
 env.close()
 
 
-theta = [0, 0, 3, 1]
 print("*"*100)
 print(" Playing the episode with the trained policy")
 ep_reward = 0
